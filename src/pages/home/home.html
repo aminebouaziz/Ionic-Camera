@@ -11,4 +11,9 @@
   <p>
     If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will be your guide.
   </p>
+  <button ion-button (click)="takePhoto()">Take photo</button>
+    <p> <img src="{{ myphoto }}"> </p>
+    <p><button ion-button (click)="getImage()" color="secondary">Get picture from Library</button></p>
+    <p><button ion-button (click)="corpImage()" color="dark">Get picture from Library</button></p>
+    <h1>your photo</h1>
 </ion-content>
